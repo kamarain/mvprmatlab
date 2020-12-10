@@ -1,0 +1,24 @@
+Very short compilation tutorial
+-------------------------------
+
+1. Requirements
+
+CMake (at least 2.8)
+OpenCV (at least 2.4.3)
+Boost (at least 1.48)
+
+2. Compilation
+
+a. create the compilation directory. Anything is okay as long as it is not
+   located in source directory
+
+b. enter compilation directory. run:
+   cmake <opencv_descriptors_directory>
+
+c. compile
+   make
+
+d. copy binary
+   cp bin/opencv_descriptors <mvprmatlab_binaries_directory>
+
+e. done
